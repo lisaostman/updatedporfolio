@@ -1,0 +1,48 @@
+.name {
+    line-height: 60px !important;
+}
+
+th {
+    padding: 2px 5px 2px 5px;
+    border: none;
+    color: white;
+}
+
+th:hover {
+    background-color: pink;
+}
+
+table {
+    text-align: center;
+    width: 33%;
+    margin-right: 33%;
+    margin-left: 33%;
+    font-size: 20px;
+    
+}
+
+.nav {
+    color: black !important;
+    border: white 1px double;
+    font-size: 12px;
+    width: 100%;
+    padding: 10px 5px 5px 5px;
+}
+
+.nav a:link { color: black; }
+.nav a:visited { color: black; }
+.nav a:hover { color: black; }
+.nav a:active { color: black; }
+
+.navtr {width: 100%;}
+
+.nav:hover {
+    background-color: pink;
+    opacity: 1;
+}
+
+.navtable {
+    width: auto;
+    margin-right: 3%;
+    margin-left: auto;
+}
