@@ -85,29 +85,54 @@
         <div class="container">
             <div class="row">
                 <div class="col md 4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 21rem;">
+                        <div class="caption">Click thumbnail for more</div>
                         <img class="card-img-top" src="assets/images/screenshot.png" alt="Card image cap" id="1">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">
+                                Ever gotten home, sat down to watch Netflix, and after too much scrolling to find the -perfect- movie, realised that it was time for bed? This webpage allows users to randomly generate a number of movies and TV shows from Netflix.
+
+                                <br><h6>More in-depth user control:</h6><br>
+                                The application allows you to:
+
+                                <br>randomly shows you movies from your country's location upon loading up the webpage
+                                <br>shows movies from your past search history in a carousel wheel
+                                <br>upon searching, finds a number of movies according to your selection of number of, country and genre
+                                <br>creates a random button that allows you to randomly go to the webpage of a netflix movie from your selection if you still have trouble deciding
+                                <br>utilies a carousel wheel to display posters, ratings, a short synopsis and the movie names for your viewing pleasure
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col md 4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/images/planner.png" alt="Card image cap" id="2">
+                    <div class="card" style="width: 21rem;">
+                        <div class="caption">Click thumbnail for more</div>
+                        <img class="card-img-top" src="assets/images/project21.png" alt="Card image cap" id="2">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">
+                                A simple weekly planner utilising local storage to allow you to view the current time and make notes.
+
+                                <br><h6>More in-depth user control:</h6>
+                                <br> The application allows you to:
+
+                                <br>view the current time as a header
+                                <br>set notes and save them to local storage by clicking the 'save' icon
+                                <br>color coded blocks makes scheduling easy!
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col md 4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 21rem;">
+                        <div class="caption">Click thumbnail for more</div>
                         <img class="card-img-top" src="assets/images/screenie.png" alt="Card image cap" id="3">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">
+                                A coding quiz made to improve my javascript, html, css and API knowledge - whilst stimultaneously testing yours! The user can also choose between three types of quizzes to try to get the top score:
+                                <br>JS
+                                <br>CSS
+                                <br>HTML The score is then added to their local storage.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -120,13 +145,13 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-touch="true">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="assets/images/screenshot.png" alt="First slide">
+                        <img class="d-block w-100" src="assets/images/screenshot.png" alt="First slide" id="first" height="100%">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/images/screenie.png" alt="Second slide">
+                        <img class="d-block w-100" src="assets/images/screenie.png" alt="Second slide" id="second" height="100%">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/images/screenshot.png" alt="Third slide">
+                        <img class="d-block w-100" src="assets/images/screenshot.png" alt="Third slide" id="third" height="100%">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -141,42 +166,79 @@
         </div>
     </div>
     <div class="parallax"></div>
-    <div class="info" id="resume">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent odio felis, sagittis id dolor nec, dignissim
-        convallis ex. Proin ultricies quam sem, vitae convallis ante luctus sit amet. Nullam vitae enim ultrices, rutrum
-        leo id, vulputate magna. Sed gravida tortor at sodales scelerisque. Aliquam pellentesque mi in tempus
-        ullamcorper. Vivamus non consectetur ex. Fusce risus magna, pretium sagittis ipsum et, egestas rutrum lorem. Sed
-        non augue felis. Pellentesque viverra purus sit amet nisl facilisis, vitae volutpat ex imperdiet. In venenatis
-        in justo vel ultricies. Quisque ut gravida nisi, in lobortis nulla. Etiam imperdiet euismod leo sed tempor.
-        Nullam porttitor augue quis dui aliquet, sed sollicitudin metus posuere. Sed consectetur arcu non ultricies
-        molestie. Morbi massa eros, venenatis ac nisl at, condimentum congue massa.
+    <div class="info container-fluid" id="resume">
+        <h1>Resume</h1>
+        <hr>
+        
+                        <form method="get" action="resume.pdf">
+                            <div class="container text-right">
+                                    <button type="submit" class="btn btn-info">Download PDF file</button>
+                            </div>
+                         </form>
+         
+        
     </div>
     <div class="parallax"></div>
     <div class="info" id="contact">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent odio felis, sagittis id dolor nec, dignissim
-        convallis ex. Proin ultricies quam sem, vitae convallis ante luctus sit amet. Nullam vitae enim ultrices, rutrum
-        leo id, vulputate magna. Sed gravida tortor at sodales scelerisque. Aliquam pellentesque mi in tempus
-        ullamcorper. Vivamus non consectetur ex. Fusce risus magna, pretium sagittis ipsum et, egestas rutrum lorem. Sed
-        non augue felis. Pellentesque viverra purus sit amet nisl facilisis, vitae volutpat ex imperdiet. In venenatis
-        in justo vel ultricies. Quisque ut gravida nisi, in lobortis nulla. Etiam imperdiet euismod leo sed tempor.
-        Nullam porttitor augue quis dui aliquet, sed sollicitudin metus posuere. Sed consectetur arcu non ultricies
-        molestie. Morbi massa eros, venenatis ac nisl at, condimentum congue massa.
+        <h1>Contact</h1>
+        <hr>
+        <form action=”mailto:peolina@live.com.au” method=”POST” enctype=”multipart/form-data” name=”EmailTestForm”> 
+                <div class="form-group">
+                  <label for="emailInput">Email:</label>
+                  <input type="email" class="form-control" id="emailInput" placeholder="eg. John Smith">
+                </div>
+                <div class="form-group">
+                        <label for="nameInput">Name:</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="name@address.com">
+                      </div>
+                <div class="form-group">
+                  <label for="messageInput">Message:</label>
+                  <textarea class="form-control" id="messageInput" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-info mb-2">Submit</button>
+              </form>
     </div>
     <div class="parallax"></div>
     <script>
         $(document).ready(
             function () {
                 $(".name").css('opacity', '1');
+                $(".fixedDiv").css('display', 'none');
             }
         );
 
         window.addEventListener("scroll", function () {
             $('.fixedDiv')[(window.scrollY > 300) ? "slideDown" : "slideUp"]();
+            if (window.scrollY > 300) {
+                $(".fixedDiv").css('display', 'block');
+            }
         }, false);
 
         $('#1').on("click", function () {
             $('.slideshow').css('display', 'block');
+            $('.slideshow').css('background', 'red');
             $('.x').css('display', 'block');
+            $('#first').attr('src', 'assets/images/project11.png');
+            $('#second').attr('src', 'assets/images/project12.png');
+            $('#third').attr('src', 'assets/images/project13.png');
+
+        });
+
+        $('#2').on("click", function () {
+            $('.slideshow').css('display', 'block');
+            $('.x').css('display', 'block');
+            $('#first').attr('src', 'assets/images/project21.png');
+            $('#second').attr('src', 'assets/images/project22.png');
+            $('#third').attr('src', 'assets/images/project23.png');
+
+        });
+
+        $('#3').on("click", function () {
+            $('.slideshow').css('display', 'block');
+            $('.x').css('display', 'block');
+            $('#first').attr('src', 'assets/images/project31.png');
+            $('#second').attr('src', 'assets/images/project32.png');
+            $('#third').attr('src', 'assets/images/project33.png');
 
         });
 

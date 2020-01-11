@@ -68,6 +68,22 @@ a, a:visited, a:hover {
     left: 10%;
 }
 
+.caption {
+  z-index: 1;
+  position: absolute;
+  padding: 2px 2px 2px 2px;
+  top: 2px;
+  right: 2px;
+  background: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.btn-info {
+  border-radius: 5px !important;
+}
+
 .x {
     display: none;
     z-index: 3;
@@ -90,6 +106,8 @@ a, a:visited, a:hover {
   width: 75px;
   outline: black;
   background-size: 100%, 100%;
+  background: white;
+  opacity: 0.8;
   border-radius: 50%;
   border: 1px solid black;
   background-image: none;
