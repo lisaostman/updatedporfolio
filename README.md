@@ -1,4 +1,4 @@
-# Weather Dashboard
+# Portfolio
 
 ## The Short Version:
 A simple weather dashboard working from the US.
@@ -12,8 +12,8 @@ The application allows you to:
  * utilies the openweathermap API for its information
  
 ## What Does it look like?
-![Image](/assets/images/photo1.png)
-![Image](/assets/images/photo2.png)
+![Image](/assets/images/1photo.png)
+![Image](/assets/images/2photo.png)
 Have a look for yourself here: [Link](https://lisaostman.github.io/updatedportfolio/)
 
 
