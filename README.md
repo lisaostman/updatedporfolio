@@ -1,15 +1,22 @@
 # Portfolio
 
 ## The Short Version:
-A simple weather dashboard working from the US.
+A mobile-friendly portfolio webpage that contains my resume, contact details, previous projects and 'about me' content.
 
 ## More in-depth user control:
-The application allows you to: 
- * view the current time as a header
- * automatically captures your location to give you up to date weather upon first visit
- * will automatically show you your last saved search there after
- * shows the user the current weather and the expected forecast for the next five days
- * utilies the openweathermap API for its information
+Languages Used: 
+ * JQuery
+ * CSS3
+ * webkit transitions
+ * HTML5
+ * Bootstrap
+ 
+Features: 
+ * Parallax scroll
+ * An adjustable nav bar for mobile
+ * new aesthetics for mobile versions
+ * a nav table that appears upon scrolling passed the header
+ * a download link to a pdf version of my resume
  
 ## What Does it look like?
 ![Image](/assets/images/1photo.png)
