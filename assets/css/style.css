@@ -4,7 +4,7 @@
   }
   
   .parallax {
-    background-image: url("file:///Users/mylo/Desktop/webweeks/firstwkbk/updatedporfolio/assets/images/image2.jpg");
+    background-image: url("assets/images/image2.jpg");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
