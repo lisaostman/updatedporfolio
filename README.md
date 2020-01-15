@@ -14,6 +14,7 @@ The application allows you to:
 ## What Does it look like?
 ![Image](/assets/images/1photo.png)
 ![Image](/assets/images/2photo.png)
+
 Have a look for yourself here: [Link](https://lisaostman.github.io/updatedportfolio/)
 
 
