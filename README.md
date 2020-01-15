@@ -15,7 +15,7 @@ The application allows you to:
 ![Image](/assets/images/1photo.png)
 ![Image](/assets/images/2photo.png)
 
-Have a look for yourself here: [Link](https://lisaostman.github.io/updatedportfolio/)
+Have a look for yourself here: [Link](https://lisaostman.github.io/updatedporfolio/)
 
 
 
