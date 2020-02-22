@@ -237,7 +237,7 @@
                 <div class="col md 3">
                     <div class="card" style="width: 21rem;">
                         <div class="caption">Click thumbnail for more</div>
-                        <img class="card-img-top" src="assets/images/project44.png" alt="Card image cap" id="2">
+                        <img class="card-img-top" src="assets/images/project44.png" alt="Card image cap" id="4">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="black">
@@ -278,10 +278,6 @@
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="assets/images/screenshot.png" alt="Third slide" id="third"
-                            height="100%">
-                    </div>
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="assets/images/project44.png" alt="Fourth slide" id="fourth"
                             height="100%">
                     </div>
                 </div>
@@ -439,6 +435,15 @@
             $('#first').attr('src', 'assets/images/project31.png');
             $('#second').attr('src', 'assets/images/project32.png');
             $('#third').attr('src', 'assets/images/project33.png');
+
+        });
+
+        $('#4').on("click", function () {
+            $('.slideshow').css('display', 'block');
+            $('.x').css('display', 'block');
+            $('#first').attr('src', 'assets/images/project44.png');
+            $('#second').attr('src', 'assets/images/project44.png');
+            $('#third').attr('src', 'assets/images/project44.png');
 
         });
 
